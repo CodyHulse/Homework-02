@@ -52,8 +52,6 @@ html, body {
 .rectangle-3 {
     width: 413px;
     height: 466px;
-    top: -12px;
-    left: 551px;
     gap: 0px;
     opacity: 0px;
     background: #FFFFFF;
@@ -66,8 +64,6 @@ html, body {
 .rectangle-4 {
     width: 413px;
     height: 150px;
-    top: -12px;
-    left: 551px;
     gap: 0px;
     opacity: 0px;
     position:fixed; 
@@ -94,8 +90,6 @@ html, body {
 .card-content {
     width: 381px;
     height: 144px;
-    top: 199px;
-    left: 567px;
     gap: 0px;
     opacity: 0px;
     font-family: Inter;
