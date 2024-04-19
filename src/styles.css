@@ -3,3 +3,159 @@ html, body {
     padding: 0;
     background-color: #E5E5E5;
 }
+
+/* Media Card Begins */
+.rectangle-1 {
+    /* Chose a width that looked correct compared to the other elements */
+    width: 400px;
+    height: 64px;
+    background: #FFFFFF;
+    padding: 12px;
+    /* Moving Media Card further down the page */
+    position:fixed; 
+    left:80px; 
+    top:80px;
+}
+
+.rectangle-2 {
+    width: 64px;
+    height: 64px;
+    background: #C4C4C4;
+    float: left;
+    margin-right: 12px;
+}
+
+.title, .description {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+}
+
+.title {
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+    margin-bottom: 4px;
+    /* Found overflow and whitespace from https://stackoverflow.com/questions/5232310/how-can-i-force-div-contents-to-stay-in-one-line-with-html-and-css */
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.description {
+    font-size: 14px;
+    line-height: 17px;
+    color: #222222;
+    width: 372px;
+}
+/* Media Card Ends */
+
+.rectangle-3 {
+    width: 413px;
+    height: 466px;
+    top: -12px;
+    left: 551px;
+    gap: 0px;
+    opacity: 0px;
+    background: #FFFFFF;
+    position:fixed; 
+    /* Accounting for rectangle-1 width, it's current position, and 91px distance on figma, I came up with this positioning */
+    left:571px; 
+    top:80px;
+}
+
+.rectangle-4 {
+    width: 413px;
+    height: 150px;
+    top: -12px;
+    left: 551px;
+    gap: 0px;
+    opacity: 0px;
+    position:fixed; 
+    left:571px; 
+    top:80px;
+    background: #C4C4C4;
+}
+
+.card-title {
+    width: 381px;
+    height: 29px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 29.05px;
+    text-align: center;
+    position:fixed; 
+    left:587px; 
+    top:246px;
+}
+
+.card-content {
+    width: 381px;
+    height: 144px;
+    top: 199px;
+    left: 567px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19.36px;
+    text-align: left;
+    position:fixed; 
+    left:610px; 
+    top:294px;
+}
+
+.rectangle-6, .rectangle-7 {
+    width: 24px;
+    height: 24px;
+    gap: 0px;
+    opacity: 0px;
+    background: #C4C4C4;   
+    position:fixed;
+    top:500px;
+}
+
+.rectangle-6 {
+    left: 892px
+}
+
+.rectangle-7 {
+    left: 924px
+}
+
+.rectangle-8 {
+    position:fixed;
+    width: 100px;
+    height: 47px;
+    left:727px; 
+    top:446px;
+    gap: 0px;
+    border-radius: 4px 0px 0px 0px;
+    opacity: 0px;
+    background: #1C62EA;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 190%;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.time {
+    position:fixed;
+    width: 68px;
+    height: 15px;
+    top: 510px;
+    left: 31%;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Inter;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14.52px;
+    text-align: center;
+    color: #808080;
+}
